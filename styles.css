@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header input[type="search"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.select-box {
+    margin-bottom: 10px;
+}
+
+.select-box select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.description p {
+    font-size: 14px;
+}
+
+.description a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td.score {
+    font-weight: bold;
+}
+
+table a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.score{
+    background-color: forestgreen;
+}
+.Critical{
+    background-color:darkgray
+}
+.High{
+    background-color: rgb(255, 60, 0);
+}
+.Medium{
+    background-color: darkorange;
+}
+.Low{
+background-color: gold;
+}
+.input{
+    width: 50%;
+    height: 50;
+}
+ .Name{
+
+ }
